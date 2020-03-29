@@ -4,6 +4,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import { View, Text, StyleSheet, StatusBar } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
+
 const weatherOptions = {
     Haze: {
         iconName: "weather-fog",
@@ -14,50 +15,50 @@ const weatherOptions = {
     Thunderstorm: {
         iconName: "weather-lightning",
         gradient: ["#373B44", "#4286f4"],
-        title: "Thunderstorm in the house",
-        subtitle: "Actually, outside of the house"
+        title: "Thunderstorm",
+        subtitle: "Watch out for lightning"
     },
     Drizzle: {
         iconName: "weather-hail",
         gradient: ["#2c3e50", "#2980b9"],
         title: "Drizzle",
-        subtitle: "Is like rain, but gay 🏳️‍🌈"
+        subtitle: "Take an umbrella"
     },
     Rain: {
         iconName: "weather-pouring",
         gradient: ["#000428", "#004e92"],
-        title: "It's raining outside",
+        title: "Rain",
         subtitle: "Bring an umbrella"
     },
     Snow: {
         iconName: "weather-snowy",
         gradient: ["#2C3E50", "#4CA1AF"],
-        title: "Cold as balls",
-        subtitle: "Do you want to build a snowman? Fuck no."
+        title: "Snow",
+        subtitle: "Do you want to build a snowman?"
     }, 
     Atmosphere: {
         iconName: "weather-hail",
         gradient: ["#89F7FE", "#66A6FF"],
-        title: "",
+        title: "Atomosphere",
         subtitle: ""
 
     },
     Clear: {
         iconName: "weather-sunny",
-        gradient: ["#FF7300", "#FEF253"],
-        title: "Sunny as fuck",
-        subtitle: "Go get your ass burnt"
+        gradient: ["#f46b45", "#eea849"],
+        title: "Sunny",
+        subtitle: "Go outside and play"
     },
     Clouds: {
         iconName: "weather-cloudy",
-        gradient: ["#D7D2CC", "#304352"],
+        gradient: ["#525252", "#3d72b4"],
         title: "Clouds",
-        subtitle: "I know, fucking boring"
+        subtitle: "but put your sunscreen on"
     },
     Mist: {
         iconName: "weather-hail",
         gradient: ["#4DA0B0", "#D39D38"],
-        title: "Mist!",
+        title: "Mist",
         subtitle: "It's like you have no glasses on."
     },
     Dust: {
